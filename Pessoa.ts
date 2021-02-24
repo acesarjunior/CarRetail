@@ -4,16 +4,16 @@
    Version: 1.0
 */
 
-import { Carro } from './Carro'
-import { concessionaria } from './Concessionaria'  
+import Carro from './Carro'
+import  concessionaria  from './Concessionaria'  
 
 
-export class pessoa{
+export default class pessoa{
 	private nome: string ;
 	private carroPreferido: string ;
 	private carro : Carro ;
 
-	constructor(nome:string , carroPreferido: string,  carro: Carro ){
+	constructor(nome:string , carroPreferido: string,  carro: any ){
 		this.nome=nome
 		this.carroPreferido=carroPreferido
 		this.carro=carro

@@ -4,10 +4,10 @@
    Version: 1.0
 */
 
-import { Carro } from './Carro'
-import { pessoa } from './Pessoa'  
+import Carro from './Carro'
+import pessoa  from './Pessoa'  
 
-export class concessionaria{
+export default class concessionaria{
 	private endereco: string ;
 	private listaDeCarros : Array<Carro> ;
 
